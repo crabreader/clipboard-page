@@ -2,9 +2,7 @@
   import "../app.css";
 </script>
 
-<div class="container m-4">
-  <slot />
-</div>
+<slot />
 
 <style lang="postcss">
   :global(html) {
